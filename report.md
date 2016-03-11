@@ -35,10 +35,14 @@ Put here your lower and better resolution pictures. Explain how you generate the
 
 
 When the resolution is lower , $\Sigma_{30}$.
+
+
 ![lower-resolution.png](https://github.com/kenziSY/UECM3033_assign2/blob/master/low-resolution.png)
 
 
 When the resolution is better, $\Sigma_{200}$.
+
+
 ![better-resolution.png](https://github.com/kenziSY/UECM3033_assign2/blob/master/better-resolution.png)
 
 
@@ -51,4 +55,3 @@ A sparse matrix is a matrix which most of the elements are zero. Sparse matrices
 -----------------------------------
 
 <sup>last modified: 11/3/2016 </sup>
-
