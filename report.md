@@ -10,7 +10,7 @@ UECM3033 Assignment #2 Report
 
 The reports, codes and supporting documents are to be uploaded to Github at: 
 
-[https://github.com/kenziSY/UECM3033_assign1](https://github.com/kenziSY/UECM3033_assign1)
+[https://github.com/kenziSY/UECM3033_assign2](https://github.com/kenziSY/UECM3033_assign2)
 
 Explain your selection criteria here. 
 Basically, LU method can be applied for any matrix. However, It attempts to solve the the problem by a finite sequence of operations. Therefore, it subjects to the roundoff error. Usually, it would be expensive for large system and requires large storage. For the SOR, each iterations improves accuracy and reduces error. SOR methods are useful even for linear problems involving a large number of variables . However, the SOR methods require a symmetric linear system and positive definite matrix. The parameter omega(w) is also required to ensure the convergence. My condition is set to be "np.count_nonzero(A) > 1/2*len(A)" . It represent sparse matrices by noting which elements are nonzero.Thus if the nonzeros is greater that half of the length of matrix A then we will choose LU method or otherwise. So the SOR will be useful and potentially faster for sparse system.
@@ -25,18 +25,18 @@ The functions of LU, SOR and solve are defined. The value of omega(w) is set to 
 
 Put here your picture file (Deadpool.jpg)
 
-![Deadpool.jng](Deadpool.png)
+![Deadpool.jng](https://github.com/kenziSY/UECM3033_assign2/blob/master/Deadpool.jpg)
 
 How many non zero element in $\Sigma$?
 The number of non zero elements in $\Sigma$ of red, green, blue matrix are 800 , 800 and 800 respectively.
 
 Put here your lower and better resolution pictures. Explain how you generate these pictures from `task2.py`.
 
-![lower-resolution.png](lower-resolution.png)
+![lower-resolution.png](https://github.com/kenziSY/UECM3033_assign2/blob/master/low-resolution.png)
 
 When the resolution is lower , $\Sigma_{30}$.
 
-![better-resolution.png](better-resolution.png)
+![better-resolution.png](https://github.com/kenziSY/UECM3033_assign2/blob/master/better-resolution.png)
 
 When the resolution is better, $\Sigma_{200}$.
 
